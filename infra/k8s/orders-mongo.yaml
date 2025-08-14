@@ -1,0 +1,55 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mongo-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: orders-mongo
+spec:
+  serviceName: "orders-mongo-service"
+  replicas: 1
+  selector:
+    matchLabels:
+      app: orders-mongo
+  template:
+    metadata:
+      labels:
+        app: orders-mongo
+    spec:
+      containers:
+        - name: orders-mongo
+          image: mongo
+          ports:
+            - containerPort: 27017
+          volumeMounts:
+            - name: mongo-data
+              mountPath: /data/db
+  volumeClaimTemplates:
+    - metadata:
+        name: mongo-data
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: 1Gi
+---
+apiVersion: v1
+kind: Service
+metadata:
+    name: orders-mongo-service
+spec:
+    selector:
+        app: orders-mongo
+    ports:
+        - name: orders
+          protocol: TCP
+          port: 27017
+          targetPort: 27017

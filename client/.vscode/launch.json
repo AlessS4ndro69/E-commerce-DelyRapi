@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to Next.js in Kubernetes",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "protocol": "inspector",
+      "restart": true,
+      "localRoot": "${workspaceFolder}",
+      "remoteRoot": "/app", // o la ruta en tu contenedor
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

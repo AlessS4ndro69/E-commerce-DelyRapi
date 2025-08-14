@@ -1,0 +1,953 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\skaffold.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:skaffold.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\_app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\pages\\_app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\pages\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:payments\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\ingress-service.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infra\\k8s\\ingress-service.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\orders\\[orderId].js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\pages\\orders\\[orderId].js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\routes\\createPayment.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:payments\\src\\routes\\createPayment.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\nats-events\\publishers\\PaymentCreatedPublisher.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:payments\\src\\nats-events\\publishers\\PaymentCreatedPublisher.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\routes\\__tests__\\createPayment.test.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:payments\\src\\routes\\__tests__\\createPayment.test.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\nats-events\\listeners\\__tests__\\OrderCreatedLIstener.test.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:payments\\src\\nats-events\\listeners\\__tests__\\OrderCreatedLIstener.test.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\nats-events\\listeners\\OrderCreatedLIstener.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:payments\\src\\nats-events\\listeners\\OrderCreatedLIstener.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\nats-events\\listeners\\__tests__\\OrderCancelledListener.test.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:payments\\src\\nats-events\\listeners\\__tests__\\OrderCancelledListener.test.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\nats-events\\listeners\\OrderCancelledListener.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:payments\\src\\nats-events\\listeners\\OrderCancelledListener.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\stripe.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:payments\\src\\stripe.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:payments\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\tickets\\[ticketId].js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\pages\\tickets\\[ticketId].js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\next.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\next.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\api\\hello.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\pages\\api\\hello.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\hooks\\useRequest.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\hooks\\useRequest.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\tickets\\new.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\pages\\tickets\\new.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\.eslintrc.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\.eslintrc.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\routes\\__tests__\\createOrder.test.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:orders\\src\\routes\\__tests__\\createOrder.test.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\routes\\getOrder.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:orders\\src\\routes\\getOrder.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\routes\\createOrder.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:orders\\src\\routes\\createOrder.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\test\\setupTests.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:orders\\src\\test\\setupTests.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:orders\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:orders\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:orders\\src\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\tickets-deployment.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infra\\k8s\\tickets-deployment.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\tickets-mongo.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infra\\k8s\\tickets-mongo.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\orders-deployment.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infra\\k8s\\orders-deployment.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\orders-mongo.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infra\\k8s\\orders-mongo.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\payments-mongo.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infra\\k8s\\payments-mongo.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\routes\\getTicket.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tickets\\src\\routes\\getTicket.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:payments\\src\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\nats-events\\listeners\\OrderCreatedLIstener.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tickets\\src\\nats-events\\listeners\\OrderCreatedLIstener.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\nats-events\\listeners\\TicketCreatedListener.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:orders\\src\\nats-events\\listeners\\TicketCreatedListener.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\nats-events\\listeners\\TicketUpdatedListener.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:orders\\src\\nats-events\\listeners\\TicketUpdatedListener.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\routes\\createTicket.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tickets\\src\\routes\\createTicket.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\common\\src\\middlewares\\requestValidation-middleware.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:common\\src\\middlewares\\requestValidation-middleware.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\buildClient.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\buildClient.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\routes\\fetchTickets.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tickets\\src\\routes\\fetchTickets.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\models\\Ticket.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tickets\\src\\models\\Ticket.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\auth\\src\\routes\\signUp.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:auth\\src\\routes\\signUp.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\nats-events\\listeners\\PaymentCreatedListener.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:orders\\src\\nats-events\\listeners\\PaymentCreatedListener.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\natsInitializer.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:orders\\src\\natsInitializer.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:orders\\src\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tickets\\src\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tickets\\src\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\routes\\updateTicket.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tickets\\src\\routes\\updateTicket.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\nats-events\\publishers\\TicketUpdatedPublisher.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tickets\\src\\nats-events\\publishers\\TicketUpdatedPublisher.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\nats-events\\publishers\\TicketCreatedPublisher.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tickets\\src\\nats-events\\publishers\\TicketCreatedPublisher.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\nats-events\\listeners\\OrderCancelledListener.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tickets\\src\\nats-events\\listeners\\OrderCancelledListener.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tickets\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\auth-mongo.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infra\\k8s\\auth-mongo.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\Dockerfile",
+              "RelativeDocumentMoniker": "payments\\Dockerfile",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\Dockerfile",
+              "RelativeToolTip": "payments\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-01T01:54:30.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAIAAAAAAAAAAEAlwD0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-08-01T01:47:09.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\Dockerfile",
+              "RelativeDocumentMoniker": "client\\Dockerfile",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\Dockerfile",
+              "RelativeToolTip": "client\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-01T01:29:22.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderCancelledListener.test.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\nats-events\\listeners\\__tests__\\OrderCancelledListener.test.ts",
+              "RelativeDocumentMoniker": "payments\\src\\nats-events\\listeners\\__tests__\\OrderCancelledListener.test.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\nats-events\\listeners\\__tests__\\OrderCancelledListener.test.ts",
+              "RelativeToolTip": "payments\\src\\nats-events\\listeners\\__tests__\\OrderCancelledListener.test.ts",
+              "ViewState": "AgIAABwAAAAADgAAAAABwBwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-29T02:05:53.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ingress-service.yaml",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\ingress-service.yaml",
+              "RelativeDocumentMoniker": "infra\\k8s\\ingress-service.yaml",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\ingress-service.yaml",
+              "RelativeToolTip": "infra\\k8s\\ingress-service.yaml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-27T16:51:33.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "skaffold.yaml",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\skaffold.yaml",
+              "RelativeDocumentMoniker": "skaffold.yaml",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\skaffold.yaml",
+              "RelativeToolTip": "skaffold.yaml",
+              "ViewState": "AgIAACkAAACgZGZmZuYswEQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-29T00:30:08.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.js",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\index.js",
+              "RelativeDocumentMoniker": "client\\pages\\index.js",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\index.js",
+              "RelativeToolTip": "client\\pages\\index.js",
+              "ViewState": "AgIAABgAAAAAZmZmZiYgwCwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-15T02:44:47.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_app.js",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\_app.js",
+              "RelativeDocumentMoniker": "client\\pages\\_app.js",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\_app.js",
+              "RelativeToolTip": "client\\pages\\_app.js",
+              "ViewState": "AgIAAAcAAACgMTMzM7MRwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-15T02:49:23.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "createPayment.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\routes\\createPayment.ts",
+              "RelativeDocumentMoniker": "payments\\src\\routes\\createPayment.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\routes\\createPayment.ts",
+              "RelativeToolTip": "payments\\src\\routes\\createPayment.ts",
+              "ViewState": "AgIAAAcAAAAAAQAAAIAZwEwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-28T05:07:29.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderCreatedLIstener.test.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\nats-events\\listeners\\__tests__\\OrderCreatedLIstener.test.ts",
+              "RelativeDocumentMoniker": "payments\\src\\nats-events\\listeners\\__tests__\\OrderCreatedLIstener.test.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\nats-events\\listeners\\__tests__\\OrderCreatedLIstener.test.ts",
+              "RelativeToolTip": "payments\\src\\nats-events\\listeners\\__tests__\\OrderCreatedLIstener.test.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-29T02:09:00.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "createPayment.test.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\routes\\__tests__\\createPayment.test.ts",
+              "RelativeDocumentMoniker": "payments\\src\\routes\\__tests__\\createPayment.test.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\routes\\__tests__\\createPayment.test.ts",
+              "RelativeToolTip": "payments\\src\\routes\\__tests__\\createPayment.test.ts",
+              "ViewState": "AgIAABQAAABAZ2ZmZmYkwEsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-29T00:56:45.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaymentCreatedPublisher.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\nats-events\\publishers\\PaymentCreatedPublisher.ts",
+              "RelativeDocumentMoniker": "payments\\src\\nats-events\\publishers\\PaymentCreatedPublisher.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\nats-events\\publishers\\PaymentCreatedPublisher.ts",
+              "RelativeToolTip": "payments\\src\\nats-events\\publishers\\PaymentCreatedPublisher.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-29T02:18:56.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "[orderId].js",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\orders\\[orderId].js",
+              "RelativeDocumentMoniker": "client\\pages\\orders\\[orderId].js",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\orders\\[orderId].js",
+              "RelativeToolTip": "client\\pages\\orders\\[orderId].js",
+              "ViewState": "AgIAAB8AAACAAAAAAIAZwA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-27T21:16:52.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderCancelledListener.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\nats-events\\listeners\\OrderCancelledListener.ts",
+              "RelativeDocumentMoniker": "payments\\src\\nats-events\\listeners\\OrderCancelledListener.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\nats-events\\listeners\\OrderCancelledListener.ts",
+              "RelativeToolTip": "payments\\src\\nats-events\\listeners\\OrderCancelledListener.ts",
+              "ViewState": "AgIAAAcAAACQzszMzIwjwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-29T02:03:15.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderCreatedLIstener.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\nats-events\\listeners\\OrderCreatedLIstener.ts",
+              "RelativeDocumentMoniker": "payments\\src\\nats-events\\listeners\\OrderCreatedLIstener.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\nats-events\\listeners\\OrderCreatedLIstener.ts",
+              "RelativeToolTip": "payments\\src\\nats-events\\listeners\\OrderCreatedLIstener.ts",
+              "ViewState": "AgIAAAYAAAAAszMzMzPbvw0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-28T05:12:31.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "stripe.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\stripe.ts",
+              "RelativeDocumentMoniker": "payments\\src\\stripe.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\stripe.ts",
+              "RelativeToolTip": "payments\\src\\stripe.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-29T01:41:01.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "package.json",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\package.json",
+              "RelativeDocumentMoniker": "payments\\package.json",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\package.json",
+              "RelativeToolTip": "payments\\package.json",
+              "ViewState": "AgIAAA4AAAAASjMzMzPbvxsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-29T01:45:29.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "[ticketId].js",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\tickets\\[ticketId].js",
+              "RelativeDocumentMoniker": "client\\pages\\tickets\\[ticketId].js",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\tickets\\[ticketId].js",
+              "RelativeToolTip": "client\\pages\\tickets\\[ticketId].js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-27T22:13:57.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "useRequest.js",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\hooks\\useRequest.js",
+              "RelativeDocumentMoniker": "client\\hooks\\useRequest.js",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\hooks\\useRequest.js",
+              "RelativeToolTip": "client\\hooks\\useRequest.js",
+              "ViewState": "AgIAAAQAAAAAzszMzMwnwAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-28T04:53:46.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "package.json",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\package.json",
+              "RelativeDocumentMoniker": "client\\package.json",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\package.json",
+              "RelativeToolTip": "client\\package.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-28T04:12:06.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "hello.js",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\api\\hello.js",
+              "RelativeDocumentMoniker": "client\\pages\\api\\hello.js",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\api\\hello.js",
+              "RelativeToolTip": "client\\pages\\api\\hello.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-28T22:55:36.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "next.config.js",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\next.config.js",
+              "RelativeDocumentMoniker": "client\\next.config.js",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\next.config.js",
+              "RelativeToolTip": "client\\next.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-29T00:39:51.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "new.js",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\tickets\\new.js",
+              "RelativeDocumentMoniker": "client\\pages\\tickets\\new.js",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\pages\\tickets\\new.js",
+              "RelativeToolTip": "client\\pages\\tickets\\new.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-28T06:00:20.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": ".eslintrc.json",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\.eslintrc.json",
+              "RelativeDocumentMoniker": "client\\.eslintrc.json",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\.eslintrc.json",
+              "RelativeToolTip": "client\\.eslintrc.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-28T20:56:59.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "createOrder.test.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\routes\\__tests__\\createOrder.test.ts",
+              "RelativeDocumentMoniker": "orders\\src\\routes\\__tests__\\createOrder.test.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\routes\\__tests__\\createOrder.test.ts",
+              "RelativeToolTip": "orders\\src\\routes\\__tests__\\createOrder.test.ts",
+              "ViewState": "AgIAACEAAADAMDMzM/MmwAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-28T20:17:50.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "getOrder.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\routes\\getOrder.ts",
+              "RelativeDocumentMoniker": "orders\\src\\routes\\getOrder.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\routes\\getOrder.ts",
+              "RelativeToolTip": "orders\\src\\routes\\getOrder.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T16:56:46.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "createOrder.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\routes\\createOrder.ts",
+              "RelativeDocumentMoniker": "orders\\src\\routes\\createOrder.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\routes\\createOrder.ts",
+              "RelativeToolTip": "orders\\src\\routes\\createOrder.ts",
+              "ViewState": "AgIAAAUAAAAANDMzMzMLwCEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T22:18:03.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "setupTests.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\test\\setupTests.ts",
+              "RelativeDocumentMoniker": "orders\\src\\test\\setupTests.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\test\\setupTests.ts",
+              "RelativeToolTip": "orders\\src\\test\\setupTests.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-28T20:21:28.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "package.json",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\package.json",
+              "RelativeDocumentMoniker": "orders\\package.json",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\package.json",
+              "RelativeToolTip": "orders\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-28T20:18:33.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\package-lock.json",
+              "RelativeDocumentMoniker": "orders\\package-lock.json",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\package-lock.json",
+              "RelativeToolTip": "orders\\package-lock.json",
+              "ViewState": "AgIAADMAAABAMzMzM5MwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-28T20:20:19.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "tickets-deployment.yaml",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\tickets-deployment.yaml",
+              "RelativeDocumentMoniker": "infra\\k8s\\tickets-deployment.yaml",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\tickets-deployment.yaml",
+              "RelativeToolTip": "infra\\k8s\\tickets-deployment.yaml",
+              "ViewState": "AgIAACAAAAAAAAAAAABgvQAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-28T03:40:39.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "index.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\index.ts",
+              "RelativeDocumentMoniker": "orders\\src\\index.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\index.ts",
+              "RelativeToolTip": "orders\\src\\index.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T23:16:28.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "tickets-mongo.yaml",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\tickets-mongo.yaml",
+              "RelativeDocumentMoniker": "infra\\k8s\\tickets-mongo.yaml",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\tickets-mongo.yaml",
+              "RelativeToolTip": "infra\\k8s\\tickets-mongo.yaml",
+              "ViewState": "AgIAADAAAAAAm5mZmZkewDYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-27T16:15:13.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "orders-deployment.yaml",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\orders-deployment.yaml",
+              "RelativeDocumentMoniker": "infra\\k8s\\orders-deployment.yaml",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\orders-deployment.yaml",
+              "RelativeToolTip": "infra\\k8s\\orders-deployment.yaml",
+              "ViewState": "AgIAABAAAAAAAAAAAABIPQAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-28T19:43:52.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "orders-mongo.yaml",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\orders-mongo.yaml",
+              "RelativeDocumentMoniker": "infra\\k8s\\orders-mongo.yaml",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\orders-mongo.yaml",
+              "RelativeToolTip": "infra\\k8s\\orders-mongo.yaml",
+              "ViewState": "AgIAACsAAACAnJmZmZkewDIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-28T19:29:42.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "payments-mongo.yaml",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\payments-mongo.yaml",
+              "RelativeDocumentMoniker": "infra\\k8s\\payments-mongo.yaml",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\payments-mongo.yaml",
+              "RelativeToolTip": "infra\\k8s\\payments-mongo.yaml",
+              "ViewState": "AgIAAB4AAABAAgAAAAARwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-28T19:28:45.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "index.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\index.ts",
+              "RelativeDocumentMoniker": "payments\\src\\index.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\payments\\src\\index.ts",
+              "RelativeToolTip": "payments\\src\\index.ts",
+              "ViewState": "AgIAAAcAAAAAc2ZmZmb0vxkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-28T05:44:13.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "getTicket.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\routes\\getTicket.ts",
+              "RelativeDocumentMoniker": "tickets\\src\\routes\\getTicket.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\routes\\getTicket.ts",
+              "RelativeToolTip": "tickets\\src\\routes\\getTicket.ts",
+              "ViewState": "AgIAAAYAAABAaWZmZqYowBYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T21:58:13.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OrderCreatedLIstener.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\nats-events\\listeners\\OrderCreatedLIstener.ts",
+              "RelativeDocumentMoniker": "tickets\\src\\nats-events\\listeners\\OrderCreatedLIstener.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\nats-events\\listeners\\OrderCreatedLIstener.ts",
+              "RelativeToolTip": "tickets\\src\\nats-events\\listeners\\OrderCreatedLIstener.ts",
+              "ViewState": "AgIAABUAAAAAajMzMzPjvxUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T21:48:46.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TicketCreatedListener.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\nats-events\\listeners\\TicketCreatedListener.ts",
+              "RelativeDocumentMoniker": "orders\\src\\nats-events\\listeners\\TicketCreatedListener.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\nats-events\\listeners\\TicketCreatedListener.ts",
+              "RelativeToolTip": "orders\\src\\nats-events\\listeners\\TicketCreatedListener.ts",
+              "ViewState": "AgIAAAUAAABgAQAAAEAlwBAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T17:03:45.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "TicketUpdatedListener.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\nats-events\\listeners\\TicketUpdatedListener.ts",
+              "RelativeDocumentMoniker": "orders\\src\\nats-events\\listeners\\TicketUpdatedListener.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\nats-events\\listeners\\TicketUpdatedListener.ts",
+              "RelativeToolTip": "orders\\src\\nats-events\\listeners\\TicketUpdatedListener.ts",
+              "ViewState": "AgIAAAQAAACgMzMzM5MwwBAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-28T05:28:02.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "requestValidation-middleware.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\common\\src\\middlewares\\requestValidation-middleware.ts",
+              "RelativeDocumentMoniker": "common\\src\\middlewares\\requestValidation-middleware.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\common\\src\\middlewares\\requestValidation-middleware.ts",
+              "RelativeToolTip": "common\\src\\middlewares\\requestValidation-middleware.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-28T05:23:00.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "createTicket.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\routes\\createTicket.ts",
+              "RelativeDocumentMoniker": "tickets\\src\\routes\\createTicket.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\routes\\createTicket.ts",
+              "RelativeToolTip": "tickets\\src\\routes\\createTicket.ts",
+              "ViewState": "AgIAABIAAABAZ2ZmZqYowB4AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T16:59:29.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "buildClient.js",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\buildClient.js",
+              "RelativeDocumentMoniker": "client\\buildClient.js",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\client\\buildClient.js",
+              "RelativeToolTip": "client\\buildClient.js",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-15T02:37:42.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "fetchTickets.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\routes\\fetchTickets.ts",
+              "RelativeDocumentMoniker": "tickets\\src\\routes\\fetchTickets.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\routes\\fetchTickets.ts",
+              "RelativeToolTip": "tickets\\src\\routes\\fetchTickets.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T21:57:42.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Ticket.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\models\\Ticket.ts",
+              "RelativeDocumentMoniker": "tickets\\src\\models\\Ticket.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\models\\Ticket.ts",
+              "RelativeToolTip": "tickets\\src\\models\\Ticket.ts",
+              "ViewState": "AgIAAB4AAAAAZmZmZuYcwEEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T21:41:06.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "signUp.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\auth\\src\\routes\\signUp.ts",
+              "RelativeDocumentMoniker": "auth\\src\\routes\\signUp.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\auth\\src\\routes\\signUp.ts",
+              "RelativeToolTip": "auth\\src\\routes\\signUp.ts",
+              "ViewState": "AgIAABAAAAAAAAAAAAAhwBsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T16:58:04.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PaymentCreatedListener.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\nats-events\\listeners\\PaymentCreatedListener.ts",
+              "RelativeDocumentMoniker": "orders\\src\\nats-events\\listeners\\PaymentCreatedListener.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\nats-events\\listeners\\PaymentCreatedListener.ts",
+              "RelativeToolTip": "orders\\src\\nats-events\\listeners\\PaymentCreatedListener.ts",
+              "ViewState": "AgIAAAkAAABgmpmZmVk6wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T23:18:09.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "natsInitializer.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\natsInitializer.ts",
+              "RelativeDocumentMoniker": "orders\\src\\natsInitializer.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\natsInitializer.ts",
+              "RelativeToolTip": "orders\\src\\natsInitializer.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T23:16:21.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "app.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\app.ts",
+              "RelativeDocumentMoniker": "orders\\src\\app.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\orders\\src\\app.ts",
+              "RelativeToolTip": "orders\\src\\app.ts",
+              "ViewState": "AgIAAAUAAACgZmZmZmYkwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T23:16:37.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "index.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\index.ts",
+              "RelativeDocumentMoniker": "tickets\\src\\index.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\index.ts",
+              "RelativeToolTip": "tickets\\src\\index.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T22:02:48.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "app.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\app.ts",
+              "RelativeDocumentMoniker": "tickets\\src\\app.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\app.ts",
+              "RelativeToolTip": "tickets\\src\\app.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAMBSvQAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T22:02:34.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "updateTicket.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\routes\\updateTicket.ts",
+              "RelativeDocumentMoniker": "tickets\\src\\routes\\updateTicket.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\routes\\updateTicket.ts",
+              "RelativeToolTip": "tickets\\src\\routes\\updateTicket.ts",
+              "ViewState": "AgIAADIAAAAA0MzMzMzwv0MAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T21:58:58.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "OrderCancelledListener.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\nats-events\\listeners\\OrderCancelledListener.ts",
+              "RelativeDocumentMoniker": "tickets\\src\\nats-events\\listeners\\OrderCancelledListener.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\nats-events\\listeners\\OrderCancelledListener.ts",
+              "RelativeToolTip": "tickets\\src\\nats-events\\listeners\\OrderCancelledListener.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T21:54:23.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "TicketCreatedPublisher.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\nats-events\\publishers\\TicketCreatedPublisher.ts",
+              "RelativeDocumentMoniker": "tickets\\src\\nats-events\\publishers\\TicketCreatedPublisher.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\nats-events\\publishers\\TicketCreatedPublisher.ts",
+              "RelativeToolTip": "tickets\\src\\nats-events\\publishers\\TicketCreatedPublisher.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T17:00:17.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "TicketUpdatedPublisher.ts",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\nats-events\\publishers\\TicketUpdatedPublisher.ts",
+              "RelativeDocumentMoniker": "tickets\\src\\nats-events\\publishers\\TicketUpdatedPublisher.ts",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\src\\nats-events\\publishers\\TicketUpdatedPublisher.ts",
+              "RelativeToolTip": "tickets\\src\\nats-events\\publishers\\TicketUpdatedPublisher.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-27T17:00:20.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "package.json",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\package.json",
+              "RelativeDocumentMoniker": "tickets\\package.json",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\tickets\\package.json",
+              "RelativeToolTip": "tickets\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-27T17:02:35.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "auth-mongo.yaml",
+              "DocumentMoniker": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\auth-mongo.yaml",
+              "RelativeDocumentMoniker": "infra\\k8s\\auth-mongo.yaml",
+              "ToolTip": "G:\\microservices-arquitectured-app\\microservices-architectured-app\\infra\\k8s\\auth-mongo.yaml",
+              "RelativeToolTip": "infra\\k8s\\auth-mongo.yaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-27T16:07:56.405Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

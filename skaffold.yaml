@@ -1,0 +1,161 @@
+apiVersion: skaffold/v2alpha3
+kind: Config
+deploy:
+  kubectl:
+    manifests:
+      - ./infra/k8s/*
+
+build:
+  local:
+    push: false
+  artifacts:
+    - image: alessandro943/microservices-auth
+      context: auth
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        infer:
+          - "src/**/*.ts"
+
+    - image: alessandro943/microservices-client
+      context: client
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        infer:
+          - "**/*.js"
+
+    - image: alessandro943/microservices-tickets
+      context: tickets
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        infer:
+          - "src/**/*.ts"
+
+    - image: alessandro943/microservices-orders
+      context: orders
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        infer:
+          - "src/**/*.ts"
+
+    - image: alessandro943/microservices-expiration
+      context: expiration
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        infer:
+          - "src/**/*.ts"
+
+    - image: alessandro943/microservices-payments
+      context: payments
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        infer:
+          - "src/**/*.ts"
+
+profiles:
+  - name: auth
+    build:
+      artifacts:
+        - image: alessandro943/microservices-auth
+          context: auth
+          docker:
+            dockerfile: Dockerfile
+          sync:
+            infer:
+              - "src/**/*.ts"
+    deploy:
+      kubectl:
+        manifests:
+          - ./infra/k8s/auth-*.yaml
+
+  - name: client
+    build:
+      artifacts:
+        - image: alessandro943/microservices-client
+          context: client
+          docker:
+            dockerfile: Dockerfile
+          sync:
+            infer:
+              - "**/*.js"
+    deploy:
+      kubectl:
+        manifests:
+          - ./infra/k8s/client-*.yaml
+          - ./infra/k8s/ingress-service.yaml
+          - ./infra/k8s/nats-deployment.yaml
+          - ./infra/k8s/jwt-secret.yaml
+          - ./infra/k8s/stripe-secret.yaml
+
+    portForward:
+    - resourceType: deployment
+      resourceName: client-deployment
+      port: 9229
+      localPort: 9229
+
+
+  - name: tickets
+    build:
+      artifacts:
+        - image: alessandro943/microservices-tickets
+          context: tickets
+          docker:
+            dockerfile: Dockerfile
+          sync:
+            infer:
+              - "src/**/*.ts"
+    deploy:
+      kubectl:
+        manifests:
+          - ./infra/k8s/tickets-*.yaml
+
+  - name: orders
+    build:
+      artifacts:
+        - image: alessandro943/microservices-orders
+          context: orders
+          docker:
+            dockerfile: Dockerfile
+          sync:
+            infer:
+              - "src/**/*.ts"
+    deploy:
+      kubectl:
+        manifests:
+          - ./infra/k8s/orders-*.yaml
+
+  - name: expiration
+    build:
+      artifacts:
+        - image: alessandro943/microservices-expiration
+          context: expiration
+          docker:
+            dockerfile: Dockerfile
+          sync:
+            infer:
+              - "src/**/*.ts"
+    deploy:
+      kubectl:
+        manifests:
+          - ./infra/k8s/expiration-*.yaml
+
+  - name: payments
+    build:
+      artifacts:
+        - image: alessandro943/microservices-payments
+          context: payments
+          docker:
+            dockerfile: Dockerfile
+          sync:
+            infer:
+              - "src/**/*.ts"
+    deploy:
+      kubectl:
+        manifests:
+          - ./infra/k8s/payments-*.yaml
+          

@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\infra",
+    "\\infra\\k8s",
+    "\\payments",
+    "\\payments\\src",
+    "\\payments\\src\\nats-events",
+    "\\payments\\src\\nats-events\\listeners",
+    "\\payments\\src\\nats-events\\publishers",
+    "\\payments\\src\\routes",
+    "\\payments\\src\\routes\\__tests__"
+  ],
+  "PreviewInSolutionExplorer": false
+}

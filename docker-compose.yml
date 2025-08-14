@@ -1,0 +1,62 @@
+version: "3.8"
+
+services:
+  payments-service:
+    build:
+      context: ./payments
+      dockerfile: Dockerfile
+    container_name: payments-service
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGO_URI=mongodb://payments-mongo:27017/payments
+      - NATS_CLUSTER_ID=ticketing
+      - NATS_CLIENT_ID=payments
+      - NATS_URL=nats://nats-streaming:4222
+      - NODE_ENV=development
+    depends_on:
+      - payments-mongo
+      - nats-streaming
+      - orders-mock
+    volumes:
+      - ./payments:/app
+    networks:
+      - ticketing
+
+  payments-mongo:
+    image: mongo
+    container_name: payments-mongo
+    ports:
+      - "27018:27017" # externo:interno
+    networks:
+      - ticketing
+    volumes:
+      - payments-mongo-data:/data/db
+
+  nats-streaming:
+    image: nats-streaming
+    container_name: nats-streaming
+    ports:
+      - "4222:4222"
+    networks:
+      - ticketing
+    command: ["-p", "4222", "-m", "8222", "-cluster_id", "ticketing"]
+
+  orders-mock:
+    image: node:18
+    container_name: orders-mock
+    working_dir: /app
+    command: ["node", "mock.js"]
+    volumes:
+      - ./mocks/orders:/app
+    ports:
+      - "3010:3000" # solo si deseas testearlo aparte
+    networks:
+      - ticketing
+
+networks:
+  ticketing:
+    driver: bridge
+
+volumes:
+  payments-mongo-data:

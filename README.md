@@ -1,77 +1,112 @@
+# 📚 DelyRapi – E-commerce con Arquitectura de Microservicios
 
-# Checkout my other project
+**DelyRapi** es una plataforma moderna para la venta de artículos de hogar, tecnología y belleza, diseñada bajo una **arquitectura de microservicios** que garantiza escalabilidad, resiliencia y mantenibilidad. 🚀
 
-*[Join the Talkhouse Family😊](https://github.com/saalikmubeen/talkhouse) | WebRTC based peer to peer voice, video calling and messaging web app build with MERN stack*
+---
+
+## 🚀 Características Principales
+
+- **Servicio de autenticación**: Implementado con Express, JSON Web Token (JWT) y MongoDB (Stateful).
+- **Servicio de tickets**: Gestión de compras, desarrollado con Express + TypeScript, integrado con NATS Streaming y MongoDB (Stateful).
+- **Servicio de órdenes**: Generación de eventos para pagos y cancelaciones.
+- **Servicio de pagos**: Integración con Stripe y Express API.
+- **Mensajería y colas**: Comunicación asíncrona entre servicios con NATS Streaming, Redis y Bull.
+- **Cliente Web**: Next.js + React, optimizado para SEO y SSR.
+- **Orquestación y despliegue**: Docker + Kubernetes, con perfiles de desarrollo y despliegue usando Skaffold.
+
+---
+
+## 🖼️ UI
+
+<p align="center">
+  <img src="https://image.winudf.com/v2/image1/ZGV2X2ltYWdlXzM3MDEzNDA0XzIyODc2NF8yMDI1MDQxNDIyMDkxODIyMQ/screen-1.webp?fakeurl=1&type=.webp" width="200"/>
+  <img src="https://image.winudf.com/v2/image1/ZGV2X2ltYWdlXzM3MDEzNDA0XzIyODc2NF8yMDI1MDQxNDIyMDU0ODE1Mw/screen-0.webp?fakeurl=1&type=.webp" width="200"/>
+  <img src="https://image.winudf.com/v2/image1/ZGV2X2ltYWdlXzM3MDEzNDA0XzIyODc2NF8yMDI1MDQxNDIyMDkyOTg4OA/screen-3.webp?fakeurl=1&type=.webp" width="200"/>
+  <img src="https://image.winudf.com/v2/image1/ZGV2X2ltYWdlXzM3MDEzNDA0XzIyODc2NF8yMDI1MDQxNDIyMDkzNjQzOA/screen-4.webp?fakeurl=1&type=.webp" width="200"/>
+  <img src="https://image.winudf.com/v2/image1/ZGV2X2ltYWdlXzM3MDEzNDA0XzIyODc2NF8yMDI1MDQxNDIyMDkyMzkyMg/screen-2.webp?fakeurl=1&type=.webp" width="200"/>
+</p>
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+### **Frontend**
+- Next.js + React
+- Zustand para manejo de estado global
+- SSR y optimización SEO
+
+### **Backend**
+- Express + TypeScript
+- Microservicios en Docker, gestionados con Kubernetes
+- MongoDB (Stateful) para persistencia
+- Redis + Bull para colas
+- NATS Streaming para mensajería
+- Stripe API para pagos
+
+### **Testing**
+- Unit tests con ts-jest
+- Integration tests con Supertest y Mocks
+
+### **DevOps**
+- Skaffold para perfiles de despliegue
+- CI/CD con integración en Kubernetes
+
+---
+
+## 🧩 Patrones de Diseño Implementados
+
+- **Repository Pattern**: Abstracción del acceso a datos.
+- **Factory Pattern**: Creación centralizada de objetos complejos.
+- **Observer Pattern**: Comunicación reactiva vía eventos NATS.
+
+---
+
+## 🛡️ Buenas Prácticas Adoptadas
+
+- Principios **SOLID**
+- **API Versioning** para compatibilidad hacia atrás
+- **Logging estructurado** con trazabilidad distribuida
+- **Pruebas unitarias, integración ** con cobertura controlada
+
+---
+
+## 📊 Observabilidad y Escalabilidad
+
+- **Alertas proactivas** ante anomalías
+- **Autoescalado horizontal (HPA)** en Kubernetes
+- Balanceo de carga con **Ingress Controller**
+
+---
+
+## 🌐 Demo
+
+🔗 [Ver aplicación en acción](https://apkpure.com/p/org.inkasoft.soykachimbo)
+
+---
+
+## 💡 Contribuciones
+
+1. Haz un fork de este repositorio. 2. Crea una rama con tu funcionalidad:
+bash
+   git checkout -b mi-nueva-funcionalidad
+3. Realiza tus cambios y haz commit:
+bash
+   git commit -m "Añadida nueva funcionalidad"
+4. Haz un push a tu rama:
+bash
+   git push origin mi-nueva-funcionalidad
+5. Crea un Pull Request.
 
 
-# microservices-architectured-app
-An event-driven asynchronous communication based microservices architectured e-commerce app created using express, typescript, nats-streaming and next.js
+## 🌟 Agradecimientos 
+A mi madre.🙌
+---
 
-# What is this ?
+### 📧 Contacto
 
-It's an e-commerce based web app for buying and selling tickets of different live and fun events happening around the city based on microservices architecture. The app is broken down into multiple individual services that talk to each other through publishing events via an event bus. Each service is responsible for handling and implementing a specific feature of the app like auth service handles authentication, orders service handles orders, payments service implements user payments and all these services work and communicate asynchronously through an event bus(nats-streaming) to run the entire app
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
+- ✉️ **Email**: [emamanix@gmail.com](mailto:emamanix@egmail.com)
+- 💻**GitHub**: [https://github.com/AlessS4ndro](https://github.com/AlessS4ndro69)
+- 📞**Whatsapp**: [Envíame un mensaje](https://wa.me/51925968311)
 
-# Why microservices ?
-
-Using microservices architecture and not relying on the monoloith pattern makes the app more durable, fault tolerant, highly available and increases the up time of the app. So if one of the services crashes, other parts of the app will still be functional and available to the users. Microservices and distributed systems is the heart of modern software and backend engineering.
-
-
-# Technologies used
-
-- **`Next.js`** for server side rendering and building frontend
-- **`Express.js`** is used for building backend
-- **`Mongodb`** as database
-- **`Mongoose`** as an ORM
-- **`Typescript`** , backend is written entirely in typescript to prevent headaches you get when infinte number of events are flowing around with no hints
-- **`Stripe`** for handling payments
-- **`Jest and Supertest`** for testing 
-- **`Docker`** for containerization
-- **`Kubernetes`** for conatiner orchestration
-- **`Skaffold`** command line tool that facilitates continuous development for Kubernetes-native applications. Makes working with and managing kubernetes 
-                  and different kubernetes services and deploymets a lot easier.
-- **`NATS Streaming`** is used as an event bus or message queue for publisihing and handling the events emitted by different services.
-- **`Bull.js`** is a fast and robust queue system. It is used to implement the payment expiration timer.
-
-
-# App Architecture
-
-The app is divided into 7 services that handle and implement a specific feature and functionality of the app:
-
-- `auth` handles the entire app authentication and authorization. JWT and cookie based authentication is used.
-- `expiration` handles the payment expiration timer to make sure user pays within a specified time frame. 
-- `orders` for handling user orders
-- `payments` for handling stripe payments
-- `tickets` for handling tickets(creating, updating, fetching). Instead of selling products, this e-commerce app sells tickets of different live events happening                    around the city.
-- `common` all the common functionality like requireAuth, error handling, and other middlewares and functions shared by different services are grouped together. 
-            This service is published as an npm package and installed in other services to be used. 
-- `client` handles and implements the frontend of the app.
-- `infra`  manages all the kubernetes deployment and service (.yaml) files that run run the app
-
-
-# Kubernetes and Docker Architecture
-
-Each service, mogongodb database and nats-streaming server is dockerized as a docker container. The docker conatiners are managed and orchestrated by their respective kubernetes deployment.yaml files inside the infra directory. The communication between different kuberentes deployments is governed by service ObjectType.
-Finally ingress-service, which uses ingress-nginx (an Ingress controller for Kubernetes using NGINX) as a reverse proxy and a load balancer to proxy or direct incoming requests to their respective services under the `ticketing.dev` hostname. Skaffold is used to get all the kubernetes deployments and services up and running with a single command  `skaffold dev` which uses skaffold.yaml file. 
-
-#  Installation 
-
-Getting this project up and running on your local machine is a notoriously dfficult task. It requires some knowlege of docker and kubernetes ecosystem. If you 
-are still up for the challenge, or if you don't have a life, try getting it work. Make sure you have docker, kubernetes and skaffold installed. Set the required envirenmental variables and run the following command:
-
-```
-skaffold dev
-```
-
-And boom app will be up and running, no extra setup and dependencies required.
-
-To delete any resources deployed by Skaffold and stop all the deployments, services and containers run 
-
-```
-skaffold delete
-```
-
-## Suggestion 
-
-Try running and testing it locally only if you don't have a life. Otherwise I'm not the one to blame for you scratching your head 😫
-while trying to understand this microservices mess of event-driven communication betweewn the services 😑
-
+---

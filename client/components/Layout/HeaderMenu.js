@@ -21,18 +21,20 @@ export default ({currentUser}) => {
                 <div className="col-lg-6">
                     <nav className="header__menu">
                         <ul>
-                            <li className="active"><a href="./index.html">Home</a></li>
-                            <li><a href="./shop-grid.html">Shop</a></li>
-                            <li><a href="#">Pages</a>
+                            <li className="active"><a href="/">Inicio</a></li>
+                            <li><a href="../shop">Compra</a></li>
+                            {/* <li><a href="#">Sección</a>
                                 <ul className="header__menu__dropdown">
-                                    <li><a href="./shop-details.html">Shop Details</a></li>
+                                    <li><a href="./shop-details.html">Detalle de compra</a></li>
                                     <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                                    <li><a href="./checkout.html">Check Out</a></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                    <li><a href="./checkout.html">Pagos</a></li>
+                                    <li><a href="./blog-details.html">Blog</a></li>
                                 </ul>
-                            </li>
-                            <li><a href="./blog.html">Blog</a></li>
-                            <li><a href="./contact.html">Contact</a></li>
+                            </li> */}
+                            <li><a href="../checkout">Checkout</a></li>
+                            <li><a href="/blog">Blog</a></li>
+                            <li><a href="/contact">Sugerencias</a></li>
+                            
                         </ul>
                     </nav>
                 </div>

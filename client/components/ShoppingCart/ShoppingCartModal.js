@@ -1,28 +1,18 @@
 import { useState, useEffect } from 'react';
+import useRequest from "../../hooks/useRequest";
 import Link from "next/link";
 import { Dialog, DialogPanel, DialogTitle } from '@headlessui/react';
 import { useRouter } from "next/router";
-import useRequest from "../../hooks/useRequest";
+import ShoppingCartItemList from './ShoppingCartItemList';
+import { useCartStore } from '../../store/cartStore';
 
 export default ({ isOpen, onClose }) => {
-    const router = useRouter();
-    // const { sendRequest, errors } = useRequest({
-    //     url: "/api/users/signIn",
-    //     method: "post",
-    //     body: { email, password },
-    //     onSuccess: () => {
-    //         router.push("/");
-    //     },
-    // });
-
-    // if (!isOpen ) return null;
-    // const onSubmit = async (e) => {
-    //     e.preventDefault();
-
-    //     await sendRequest();
-    //     setIsLogin(!isLogin);
-    //     onClose(); // Close modal after login/signup
-    // };
+    const [total, setTotal] = useState(0);
+    const [Subtotal, setSubtotal] = useState(0);
+    const [loading, setLoading] = useState(false);
+    
+    const addItem = useCartStore((state) => state.addItem);
+    const items = useCartStore((state) => state.items);
 
     return (
         <Dialog open={isOpen} onClose={onClose} >
@@ -43,72 +33,20 @@ export default ({ isOpen, onClose }) => {
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td className="shoping__cart__item">
-                                        <img src="img/cart/cart-1.jpg" alt=""/>
-                                        <h5>Vegetable’s Package</h5>
-                                    </td>
-                                    <td className="shoping__cart__price">
-                                        $55.00
-                                    </td>
-                                    <td className="shoping__cart__quantity">
-                                        <div className="quantity">
-                                            <div className="pro-qty"><span className="dec qtybtn">-</span>
-                                                <input type="text" value="1"/>
-                                            <span className="inc qtybtn">+</span></div>
-                                        </div>
-                                    </td>
-                                    <td className="shoping__cart__total">
-                                        $110.00
-                                    </td>
-                                    <td className="shoping__cart__item__close">
-                                        <span className="icon_close"></span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td className="shoping__cart__item">
-                                        <img src="img/cart/cart-2.jpg" alt=""/>
-                                        <h5>Fresh Garden Vegetable</h5>
-                                    </td>
-                                    <td className="shoping__cart__price">
-                                        $39.00
-                                    </td>
-                                    <td className="shoping__cart__quantity">
-                                        <div className="quantity">
-                                            <div className="pro-qty"><span className="dec qtybtn">-</span>
-                                                <input type="text" value="1"/>
-                                            <span className="inc qtybtn">+</span></div>
-                                        </div>
-                                    </td>
-                                    <td className="shoping__cart__total">
-                                        $39.99
-                                    </td>
-                                    <td className="shoping__cart__item__close">
-                                        <span className="icon_close"></span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td className="shoping__cart__item">
-                                        <img src="img/cart/cart-3.jpg" alt=""/>
-                                        <h5>Organic Bananas</h5>
-                                    </td>
-                                    <td className="shoping__cart__price">
-                                        $69.00
-                                    </td>
-                                    <td className="shoping__cart__quantity">
-                                        <div className="quantity">
-                                            <div className="pro-qty"><span className="dec qtybtn">-</span>
-                                                <input type="text" value="1"/>
-                                            <span className="inc qtybtn">+</span></div>
-                                        </div>
-                                    </td>
-                                    <td className="shoping__cart__total">
-                                        $69.99
-                                    </td>
-                                    <td className="shoping__cart__item__close">
-                                        <span className="icon_close"></span>
-                                    </td>
-                                </tr>
+                                {items && items.map((item) => {
+                                    return (
+                                        <ShoppingCartItemList 
+                                        key={item.id}
+                                        id={item.id}
+                                        title={item.title} 
+                                        price={item.price} 
+                                        stock={item.stock}
+                                        qty = {item.qty }
+                                        image={item.image}  
+                                        handleTotalPrice={(n) => setTotal(n + total)}
+                                        />
+                                    );
+                                })}                                                                
                             </tbody>
                         </table>
                     </div>
@@ -136,10 +74,23 @@ export default ({ isOpen, onClose }) => {
                 <div className="col-lg-6">
                     <div className="shoping__checkout">
                         <h5>Cart Total</h5>
-                        <ul>
-                            <li>Subtotal <span>$454.98</span></li>
-                            <li>Total <span>$454.98</span></li>
+                        {
+                            <ul>
+                            <li>Subtotal <span>${
+                            items
+                            .map(it => it.qty * it.price)
+                            .reduce((a, b) => a + b, 0)
+                            
+                            }</span></li>
+                            <li>Total <span>${
+                            items
+                            .map(it => it.qty * it.price)
+                            .reduce((a, b) => a + b, 0)
+                            
+                            }</span></li>
                         </ul>
+                        }
+                        
                         <a href="#" className="primary-btn">PROCEED TO CHECKOUT</a>
                     </div>
                 </div>

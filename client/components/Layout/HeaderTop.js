@@ -15,7 +15,7 @@ export default () => {
                         <div className="header__top__left">
                             <ul>
                                 <li><i className="fa fa-envelope"></i> {currentUser?.email}</li>
-                                <li>Free Shipping for all Order of $99</li>
+                                <li>Descuentos y promoción temporada invierno </li>
                             </ul>
                         </div>
                     </div>

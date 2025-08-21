@@ -23,12 +23,9 @@ const LandingPage = ({ currentUser }) => {
     return (
         // <!-- Header Section Begin -->
         <>
-        {/* // <header className="header">
-        //     <HeaderTop currentUser={currentUser}/>
-        //     <HeaderMenu />
-        // </header> */}
+        
         <section className="hero">
-            <HeroCategories/>
+            <HeroCategories showHeroBanner={true}/>
         </section>
         <section className="categories">
             <Categories/>
@@ -45,9 +42,7 @@ const LandingPage = ({ currentUser }) => {
         <section className="from-blog spad">
             <Blog/>
         </section>
-        {/* <footer className="footer spad">
-            <Footer/>
-        </footer> */}
+        
         </>
         
     );

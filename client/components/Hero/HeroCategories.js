@@ -1,5 +1,5 @@
 
-export default ({currentUser}) => {
+export default ({showHeroBanner}) => {
     return (
 <section className="hero">
         <div className="container">
@@ -8,20 +8,18 @@ export default ({currentUser}) => {
                     <div className="hero__categories">
                         <div className="hero__categories__all">
                             <i className="fa fa-bars"></i>
-                            <span>All departments</span>
+                            <span>Categorias</span>
                         </div>
                         <ul>
-                            <li><a href="#">Fresh Meat</a></li>
-                            <li><a href="#">Vegetables</a></li>
-                            <li><a href="#">Fruit & Nut Gifts</a></li>
-                            <li><a href="#">Fresh Berries</a></li>
-                            <li><a href="#">Ocean Foods</a></li>
-                            <li><a href="#">Butter & Eggs</a></li>
-                            <li><a href="#">Fastfood</a></li>
-                            <li><a href="#">Fresh Onion</a></li>
-                            <li><a href="#">Papayaya & Crisps</a></li>
-                            <li><a href="#">Oatmeal</a></li>
-                            <li><a href="#">Fresh Bananas</a></li>
+                            <li><a href="#">Carne Fresca</a></li>
+                            <li><a href="#">Vegetales</a></li>
+                            <li><a href="#">Frutas y Frutos secos</a></li>                            
+                            <li><a href="#">Alimento marino</a></li>
+                            <li><a href="#">Lacteos</a></li>
+                            <li><a href="#">Comida rapida</a></li>
+                            <li><a href="#">Tuberculos</a></li>
+                            <li><a href="#">Papaya</a></li>
+                    
                         </ul>
                     </div>
                 </div>
@@ -30,11 +28,11 @@ export default ({currentUser}) => {
                         <div className="hero__search__form">
                             <form action="#">
                                 <div className="hero__search__categories">
-                                    All Categories
+                                    Categorias
                                     <span className="arrow_carrot-down"></span>
                                 </div>
                                 <input type="text" placeholder="What do yo u need?"/>
-                                <button type="submit" className="site-btn">SEARCH</button>
+                                <button type="submit" className="site-btn">BUSCAR</button>
                             </form>
                         </div>
                         <div className="hero__search__phone">
@@ -47,14 +45,14 @@ export default ({currentUser}) => {
                             </div>
                         </div>
                     </div>
-                    <div className="hero__item set-bg" data-setbg="img/hero/banner.jpg">
+                    { showHeroBanner && <div className="hero__item set-bg" data-setbg="img/hero/banner.jpg">
                         <div className="hero__text">
-                            <span>FRUIT FRESH</span>
-                            <h2>Vegetable <br />100% Organic</h2>
-                            <p>Free Pickup and Delivery Available</p>
-                            <a href="#" className="primary-btn">SHOP NOW</a>
+                            <span>FRUTA FRESCA</span>
+                            <h2>Vegetales <br />100% Organicos</h2>
+                            <p>Delivery</p>
+                            <a href="#" className="primary-btn">COMPRA AHORA</a>
                         </div>
-                    </div>
+                    </div>}
                 </div>
             </div>
         </div>

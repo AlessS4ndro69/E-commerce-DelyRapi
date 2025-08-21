@@ -9,39 +9,39 @@ export default ({currentUser}) => {
                             <a href="./index.html"><img src="img/logo.png" alt=""/></a>
                         </div>
                         <ul>
-                            <li>Address: 60-49 Road 11378 New York</li>
-                            <li>Phone: +65 11.188.888</li>
-                            <li>Email: hello@colorlib.com</li>
+                            <li>Lima Peru</li>
+                            
+                            <li>Email: delyrapi@delyrapi.com</li>
                         </ul>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
                     <div className="footer__widget">
-                        <h6>Useful Links</h6>
+                        <h6>Visita</h6>
                         <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">About Our Shop</a></li>
-                            <li><a href="#">Secure Shopping</a></li>
-                            <li><a href="#">Delivery infomation</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Our Sitemap</a></li>
+                            <li><a href="#">Nosotros</a></li>
+                            <li><a href="#">Acerca de tu compra</a></li>
+                            <li><a href="#">Seguridad</a></li>
+                            <li><a href="#">Delivery</a></li>
+                            <li><a href="#">Politicas de privacidad</a></li>
+                            
                         </ul>
                         <ul>
-                            <li><a href="#">Who We Are</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Innovation</a></li>
-                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Quienes somos</a></li>
+                            <li><a href="#">Nuestro servicio</a></li>
+                            
+                            <li><a href="#">Contacto</a></li>
+                            
+                            <li><a href="#">Reseñas</a></li>
                         </ul>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-12">
                     <div className="footer__widget">
-                        <h6>Join Our Newsletter Now</h6>
-                        <p>Get E-mail updates about our latest shop and special offers.</p>
+                        <h6>Newsletter</h6>
+                        <p>Enterate de nuestras ofertas dejando tu email</p>
                         <form action="#">
-                            <input type="text" placeholder="Enter your mail"/>
+                            <input type="text" placeholder="email"/>
                             <button type="submit" className="site-btn">Subscribe</button>
                         </form>
                         <div className="footer__widget__social">
@@ -57,7 +57,7 @@ export default ({currentUser}) => {
                 <div className="col-lg-12">
                     <div className="footer__copyright">
                         <div className="footer__copyright__text"><p>
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Template hecho <i className="fa fa-heart" aria-hidden="true"></i> por <a href="https://colorlib.com" target="_blank">Colorlib</a>
   </p></div>
                         <div className="footer__copyright__payment"><img src="img/payment-item.png" alt=""/></div>
                     </div>

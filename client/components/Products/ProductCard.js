@@ -23,10 +23,10 @@ export default (props) => {
     const onSubmit = async (e) => {
         e.preventDefault();
 
-        console.log(`Producto añadido al carrito con ${title} y ${price}`);
-        await sendRequest();
         addItem(product);
-        
+        console.log(`Producto añadido al carrito con ${title} y ${price}`);
+        await sendRequest();        
+                
         console.log(useCartStore.getState().items);
     };
     return (

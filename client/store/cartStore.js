@@ -25,6 +25,12 @@ export const useCartStore = create(
           items: state.items.filter((i) => i.id !== id),
         })),
       clearCart: () => set({ items: [] }),
+      updateItemQuantity: (id, qty) =>
+        set((state) => ({
+          items: state.items.map((i) =>
+            i.id === id ? { ...i, qty: Math.max(1, qty) } : i
+          ),
+        })),
     }),
     {
       name: 'cart-storage', // clave en localStorage

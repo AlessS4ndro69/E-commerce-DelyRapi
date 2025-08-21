@@ -1,19 +1,20 @@
-# 📚 DelyRapi – E-commerce con Arquitectura de Microservicios
+# 📚 DelyRapi – E-commerce with Microservices Architecture
 
-**DelyRapi** es una plataforma moderna para la venta de artículos de hogar diseñada bajo una **arquitectura de microservicios** que garantiza escalabilidad, resiliencia y mantenibilidad. 🚀
+**DelyRapi** is a modern platform for selling home goods, designed under a **microservices architecture** that ensures scalability, resilience, and maintainability. 🚀
 
 ---
 
-## 🚀 Características Principales
+## 🚀 Key Features
 
-- **Servicio de autenticación**: Implementado con Express, JSON Web Token (JWT) y MongoDB (Stateful).
-- **Servicio de tickets**: Gestión de compras, desarrollado con Express + TypeScript, integrado con NATS Streaming y MongoDB (Stateful).
-- **Servicio de órdenes**: Generación de eventos para pagos y cancelaciones.
-- **Servicio de pagos**: Integración con Stripe y Express API.
-- **Mensajería y colas**: Comunicación asíncrona entre servicios con NATS Streaming, Redis y Bull.
-- **Cliente Web**: Next.js + React, optimizado para SEO y SSR.
-- **Orquestación y despliegue**: Docker + Kubernetes, con perfiles de desarrollo y despliegue usando Skaffold.
+- **Authentication Service**: Implemented with Express, JSON Web Token (JWT), and MongoDB (Stateful).
+- **Tickets Service**: Purchase management, developed with Express + TypeScript, integrated with NATS Streaming and MongoDB (Stateful).
+- **Orders Service**: Event generation for payments and cancellations.
+- **Payments Service**: Integration with Stripe and Express API.
+- **Messaging and Queues**: Asynchronous communication between services using NATS Streaming, Redis, and Bull.
+- **Web Client**: Next.js + React, optimized for SEO and SSR.
+- **Orchestration and Deployment**: Docker + Kubernetes, with development and deployment profiles using Skaffold.
 
+---
 ---
 
 ## 🖼️ UI
@@ -29,83 +30,84 @@
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 
 ### **Frontend**
-- Next.js + React
-- Zustand para manejo de estado global
-- SSR y optimización SEO
+- Next.js + React  
+- Zustand for global state management  
+- SSR and SEO optimization  
 
 ### **Backend**
-- Express + TypeScript
-- Microservicios en Docker, gestionados con Kubernetes
-- MongoDB (Stateful) para persistencia
-- Redis + Bull para colas
-- NATS Streaming para mensajería
-- Stripe API para pagos
+- Express + TypeScript  
+- Microservices in Docker, managed with Kubernetes  
+- MongoDB (Stateful) for persistence  
+- Redis + Bull for queues  
+- NATS Streaming for messaging  
+- Stripe API for payments  
 
 ### **Testing**
-- Unit tests con ts-jest
-- Integration tests con Supertest y Mocks
+- Unit tests with ts-jest  
+- Integration tests with Supertest and Mocks  
 
 ### **DevOps**
-- Skaffold para perfiles de despliegue
-- CI/CD con integración en Kubernetes
+- Skaffold for deployment profiles  
+- CI/CD with Kubernetes integration  
 
 ---
 
-## 🧩 Patrones de Diseño Implementados
 
-- **Repository Pattern**: Abstracción del acceso a datos.
-- **Factory Pattern**: Creación centralizada de objetos complejos.
-- **Observer Pattern**: Comunicación reactiva vía eventos NATS.
+## 🧩 Implemented Design Patterns
 
----
-
-## 🛡️ Buenas Prácticas Adoptadas
-
-- Principios **SOLID**
-- **API Versioning** para compatibilidad hacia atrás
-- **Logging estructurado** con trazabilidad distribuida
-- **Pruebas unitarias, integración ** con cobertura controlada
+- **Repository Pattern**: Data access abstraction.  
+- **Factory Pattern**: Centralized creation of complex objects.  
+- **Observer Pattern**: Reactive communication via NATS events.  
 
 ---
 
-## 📊 Observabilidad y Escalabilidad
+## 🛡️ Adopted Best Practices
 
-- **Alertas proactivas** ante anomalías
-- **Autoescalado horizontal (HPA)** en Kubernetes
-- Balanceo de carga con **Ingress Controller**
+- **SOLID Principles**  
+- **API Versioning** for backward compatibility  
+- **Structured Logging** with distributed traceability  
+- **Unit and Integration Tests** with controlled coverage  
+
+---
+
+## 📊 Observability and Scalability
+
+- **Proactive Alerts** for anomalies  
+- **Horizontal Pod Autoscaling (HPA)** in Kubernetes  
+- Load balancing with **Ingress Controller**  
 
 ---
 
 ## 🌐 Demo
 
-🔗 [Ver aplicación en acción](https://apkpure.com/p/org.inkasoft.soykachimbo)
+🔗 [Ver aplicación en acción]()
 
 ---
 
 ## 💡 Contribuciones
 
-1. Haz un fork de este repositorio. 2. Crea una rama con tu funcionalidad:
+1. You can a fork of my repository. 2. Create a branch:
 bash
    git checkout -b mi-nueva-funcionalidad
-3. Realiza tus cambios y haz commit:
+3. Make your changes and:
 bash
    git commit -m "Añadida nueva funcionalidad"
-4. Haz un push a tu rama:
+4. Make a push:
 bash
    git push origin mi-nueva-funcionalidad
-5. Crea un Pull Request.
+5. Create a Pull Request.
 
 
-## 🌟 Agradecimientos 
-A mi madre.🙌
+## 🌟 Achievements
+To my Mother.🙌
 ---
 
-### 📧 Contacto
+### 📧 Contact
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
+Do you have any questions?, dont worry contact me:
 - ✉️ **Email**: [emamanix@gmail.com](mailto:emamanix@egmail.com)
 - 💻**GitHub**: [https://github.com/AlessS4ndro](https://github.com/AlessS4ndro69)
 - 📞**Whatsapp**: [Envíame un mensaje](https://wa.me/51925968311)

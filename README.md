@@ -1,6 +1,6 @@
 # 📚 DelyRapi – E-commerce con Arquitectura de Microservicios
 
-**DelyRapi** es una plataforma moderna para la venta de artículos de hogar, tecnología y belleza, diseñada bajo una **arquitectura de microservicios** que garantiza escalabilidad, resiliencia y mantenibilidad. 🚀
+**DelyRapi** es una plataforma moderna para la venta de artículos de hogar diseñada bajo una **arquitectura de microservicios** que garantiza escalabilidad, resiliencia y mantenibilidad. 🚀
 
 ---
 
@@ -19,11 +19,12 @@
 ## 🖼️ UI
 
 <p align="center">
-  <img src="https://image.winudf.com/v2/image1/ZGV2X2ltYWdlXzM3MDEzNDA0XzIyODc2NF8yMDI1MDQxNDIyMDkxODIyMQ/screen-1.webp?fakeurl=1&type=.webp" width="200"/>
-  <img src="https://image.winudf.com/v2/image1/ZGV2X2ltYWdlXzM3MDEzNDA0XzIyODc2NF8yMDI1MDQxNDIyMDU0ODE1Mw/screen-0.webp?fakeurl=1&type=.webp" width="200"/>
-  <img src="https://image.winudf.com/v2/image1/ZGV2X2ltYWdlXzM3MDEzNDA0XzIyODc2NF8yMDI1MDQxNDIyMDkyOTg4OA/screen-3.webp?fakeurl=1&type=.webp" width="200"/>
-  <img src="https://image.winudf.com/v2/image1/ZGV2X2ltYWdlXzM3MDEzNDA0XzIyODc2NF8yMDI1MDQxNDIyMDkzNjQzOA/screen-4.webp?fakeurl=1&type=.webp" width="200"/>
-  <img src="https://image.winudf.com/v2/image1/ZGV2X2ltYWdlXzM3MDEzNDA0XzIyODc2NF8yMDI1MDQxNDIyMDkyMzkyMg/screen-2.webp?fakeurl=1&type=.webp" width="200"/>
+  <img src="client/public/img/demo/imagen_2025-08-20_215355190.png" />
+  <img src="client/public/img/demo/imagen_2025-08-20_215453659.png" />
+  <img src="client/public/img/demo/imagen_2025-08-20_215512501.png" />
+  <img src="client/public/img/demo/imagen_2025-08-20_215604827.png" />
+  <img src="client/public/img/demo/imagen_2025-08-20_215637763.png" />
+  <img src="client/public/img/demo/imagen_2025-08-20_215637763.png" />
 </p>
 
 ---
